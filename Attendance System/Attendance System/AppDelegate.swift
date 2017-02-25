@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  Attendance Taking
+//  Attendance System
 //
-//  Created by Xinhong LIU on 11/1/2017.
+//  Created by Xinhong LIU on 21/1/2017.
 //  Copyright © 2017 Hall2. All rights reserved.
 //
 

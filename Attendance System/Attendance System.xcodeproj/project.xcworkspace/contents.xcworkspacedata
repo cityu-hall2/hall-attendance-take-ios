@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:Attendance Taking.xcodeproj">
+      location = "self:Attendance System.xcodeproj">
    </FileRef>
 </Workspace>
