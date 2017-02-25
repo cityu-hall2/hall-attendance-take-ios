@@ -1,15 +1,15 @@
 //
-//  Attendance_TakingTests.swift
-//  Attendance TakingTests
+//  Attendance_SystemTests.swift
+//  Attendance SystemTests
 //
-//  Created by Xinhong LIU on 11/1/2017.
+//  Created by Xinhong LIU on 21/1/2017.
 //  Copyright © 2017 Hall2. All rights reserved.
 //
 
 import XCTest
-@testable import Attendance_Taking
+@testable import Attendance_System
 
-class Attendance_TakingTests: XCTestCase {
+class Attendance_SystemTests: XCTestCase {
     
     override func setUp() {
         super.setUp()
