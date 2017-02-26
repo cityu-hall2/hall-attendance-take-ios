@@ -13,6 +13,8 @@
 		B22F36171E339DD5007664FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B22F36161E339DD5007664FB /* Assets.xcassets */; };
 		B22F361A1E339DD5007664FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B22F36181E339DD5007664FB /* LaunchScreen.storyboard */; };
 		B22F36251E339DD5007664FB /* Attendance_SystemTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B22F36241E339DD5007664FB /* Attendance_SystemTests.swift */; };
+		B25994D11E61B2F800C241B7 /* EventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B25994D01E61B2F800C241B7 /* EventViewController.swift */; };
+		B25994D41E61B85900C241B7 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B25994D31E61B85900C241B7 /* AVFoundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		B22F36201E339DD5007664FB /* Attendance SystemTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Attendance SystemTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B22F36241E339DD5007664FB /* Attendance_SystemTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Attendance_SystemTests.swift; sourceTree = "<group>"; };
 		B22F36261E339DD5007664FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B25994D01E61B2F800C241B7 /* EventViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventViewController.swift; sourceTree = "<group>"; };
+		B25994D31E61B85900C241B7 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B25994D41E61B85900C241B7 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,6 +67,7 @@
 				B22F360E1E339DD5007664FB /* Attendance System */,
 				B22F36231E339DD5007664FB /* Attendance SystemTests */,
 				B22F360D1E339DD5007664FB /* Products */,
+				B25994D21E61B85800C241B7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -83,6 +89,7 @@
 				B22F36161E339DD5007664FB /* Assets.xcassets */,
 				B22F36181E339DD5007664FB /* LaunchScreen.storyboard */,
 				B22F361B1E339DD5007664FB /* Info.plist */,
+				B25994D01E61B2F800C241B7 /* EventViewController.swift */,
 			);
 			path = "Attendance System";
 			sourceTree = "<group>";
@@ -94,6 +101,14 @@
 				B22F36261E339DD5007664FB /* Info.plist */,
 			);
 			path = "Attendance SystemTests";
+			sourceTree = "<group>";
+		};
+		B25994D21E61B85800C241B7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B25994D31E61B85900C241B7 /* AVFoundation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,6 +161,7 @@
 				TargetAttributes = {
 					B22F360B1E339DD5007664FB = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 29CD49UNXW;
 						ProvisioningStyle = Automatic;
 					};
 					B22F361F1E339DD5007664FB = {
@@ -201,6 +217,7 @@
 			files = (
 				B22F36121E339DD5007664FB /* ViewController.swift in Sources */,
 				B22F36101E339DD5007664FB /* AppDelegate.swift in Sources */,
+				B25994D11E61B2F800C241B7 /* EventViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -337,6 +354,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 29CD49UNXW;
 				INFOPLIST_FILE = "Attendance System/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cityuhall2.Attendance-System";
@@ -349,6 +367,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 29CD49UNXW;
 				INFOPLIST_FILE = "Attendance System/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cityuhall2.Attendance-System";
